@@ -71,12 +71,15 @@ With this particular beautifully complete documentation:
 ### Keeping things from hard crashing
 
 - Fixed the bug to create the complete directory
+- Added an error directory
 - Added a simple [Error catch](https://github.com/aaron-collier/hydra-packager/blob/master/lib/tasks/packager.rake#L123)
+- Configuration option to exit on error
 
 ### Minimizing command line options & in code configuration
 
 - Added a [configuration file](https://github.com/aaron-collier/hydra-packager/blob/configuration/config/packager.yml)
 - Moved the XML xpath query format into the configuration to clean up...
+- Allows for addition of metadata properties and work types without touching the rake job
 
 ### Quieting down the output if desired
 
@@ -85,6 +88,11 @@ With this particular beautifully complete documentation:
 - Included a "quite" option for no output.
 - All of the above options don't affect the added log output (which matches verbose)
 
-## What's Next?
+## TODO & What's Next?
+
+- Improve the README and any other instructions
+- Gem for easy inclusion in a project
+- Investigate ability to attach files without running derivatives (for the sake of speed)
+- Consider options for automation
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
