@@ -40,15 +40,19 @@ ITEM@0987-1234.zip
 -- bitstream_1234.jpg
 ```
 
-[Example Collection METS](packager/examples/collection_mets.xml)
-
-[Example Item METS](packager/examples/item_mets.xml)
-
 Exported file and COMMUNITY zip files generally only contain mets.xml (and possibly a thumbnail). The mets.xml file includes links the the sub community and collection zip files.
 
 Collection zip files contain a mets.xml file, possibly a thumbnail. The mets.xml file includes the structure to the ITEM files.
 
 The ITEM files contain the metadata (in mets.xml) and any associated bitstreams. These are the objects we want imported.
+
+#### examples
+
+[Example Collection METS](packager/examples/collection_mets.xml)
+
+[Example Item METS](packager/examples/item_mets.xml)
+
+#### Code
 
 [The code - in all it's glory](https://github.com/aaron-collier/hydra-packager/blob/v1.0/lib/tasks/packager.rake)
 
@@ -60,38 +64,6 @@ The ITEM files contain the metadata (in mets.xml) and any associated bitstreams.
 - Not at all DRY
 - Methods tend to do too much
 
-
-## Making it usable for anyone else
-
-[I came across this article while investigating rake best practices](https://edelpero.svbtle.com/everything-you-always-wanted-to-know-about-writing-good-rake-tasks-but-were-afraid-to-ask)
-
-- Added a description, this makes it show up in `rake -T`
-- Added a method to print a progress bar (but admittedly this compounded the DRY problem)
-    - Adding a log service to both minimize output and DRY between log and console output.
-
-### Write the docs!
-
-[Sent this gist to Drew](https://gist.github.com/aaron-collier/de0d5e885813aecc4b755ca634745e09)
-
-With this particular beautifully complete documentation:
-
-```
-# Steps to use this:
-# 1 - Export DSpace data in AIP format
-# ---- [dspace bin]/dspace packager -d -a -e [email address] -i [handle of comm/coll/item] -t AIP [full path to export file name in .zip format]
-# ---- this will include all sub items and collections in ITEM-HANDLE.zip format - move all files to server for import
-# 2 - in the directory with the above zip files, add a "complete" directory (this should be added to the code, just hasn't been done yet)
-# 3 - run the rake from your hydra project root as: rake packager:aip["path/to/top_level_zip","admin@somehere.edu"] (where admin@ is your admin email address)
-
-# a few things to keep in mind, the below "attributes" has is largely dependant on our data mapping, so if those dublin core fieds show up
-# you'll need to comment them out to not include them, or add them to your model. the attribute is based on the dc key.
-
-# There's a bit here that I'm not doing anything with anymore or yet, like capturing the community heirarchy to include in metadata. should be easy to reistablish that
-
-# Sometimes a dspace created zip file will cause an error. Remove or move that file then move your NON item zip files back from "complete
- to the root folder and rerun to catch up from where it failed.
- ```
-
 At this point, it was very clear that a [refactor](packager/refactor) was necessary.
 
 ## TODO & What's Next?
@@ -99,5 +71,6 @@ At this point, it was very clear that a [refactor](packager/refactor) was necess
 - Improve the README and any other instructions
 - Gem for easy inclusion in a project
 - Investigate ability to attach files without running derivatives (for the sake of speed)
+- Possible notifications for long running tasks
 - Consider options for automation
 - Make the task interactive so they user can select the input file without a command line option
