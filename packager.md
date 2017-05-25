@@ -6,7 +6,7 @@ The main project repo is available in the [hydra-packager repo](https://github.c
 
 ## Background
 
-After deciding that Hydra (and specifically Sufia, then Hyrax) would be the platform for the future of the
+After deciding that Hydra (and specifically Sufia, and now Hyrax) would be the platform for the future of the
 California State University ScholarWorks project, the first order of business was determining what the movement
 of data out of DSpace would look like.
 
@@ -20,6 +20,31 @@ As a simple primer, there are several options this:
 In order to avoid installing a plugin (Bag) and wanting to stay as close to native DSpace as possible, I chose to use the results of the AIP packager for Hydra ingestion. This has the benefit of being the prescribed backup/restore method for DSpace.
 
 ## Version 1 (or 0.1 if you prefer)
+
+With that decision made, getting data out of DSpace was easy, now I needed to take that data and injest it into hyrax.
+
+### AIP Structure
+
+```
+filename.zip
+-- mets.xml
+COMMUNITY@1234-5678.zip
+-- mets.xml
+COLLECTION@2345-6789.zip
+-- mets.xml
+-- bitstream_1234.jpg*
+ITEM@0987-1234.zip
+-- mets.xml
+-- bitstream_1234.txt
+-- bitstream_1234.pdf
+-- bitstream_1234.jpg
+```
+
+Exported file and COMMUNITY zip files generally only contain mets.xml (and possibly a thumbnail). The mets.xml file includes links the the sub community and collection zip files.
+
+Collection zip files contain a mets.xml file, possibly a thumbnail. The mets.xml file includes the structure to the ITEM files.
+
+The ITEM files contain the metadata (in mets.xml) and any associated bitstreams. These are the objects we want imported.
 
 [The code - in all it's glory](https://github.com/aaron-collier/csusm-hyrax/blob/946b9c4497eb88dde5dfa5ac2946024b30dad4db/lib/tasks/packager.rake)
 
@@ -94,5 +119,3 @@ With this particular beautifully complete documentation:
 - Gem for easy inclusion in a project
 - Investigate ability to attach files without running derivatives (for the sake of speed)
 - Consider options for automation
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
