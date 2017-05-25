@@ -40,6 +40,9 @@ ITEM@0987-1234.zip
 -- bitstream_1234.jpg
 ```
 
+[Example Collection METS](packager/examples/collection_mets.xml)
+[Example Item METS](packager/examples/item_mets.xml)
+
 Exported file and COMMUNITY zip files generally only contain mets.xml (and possibly a thumbnail). The mets.xml file includes links the the sub community and collection zip files.
 
 Collection zip files contain a mets.xml file, possibly a thumbnail. The mets.xml file includes the structure to the ITEM files.

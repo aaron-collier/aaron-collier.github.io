@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<mets ID="DSpace_ITEM_10211.3-122521" OBJID="hdl:10211.3/122521" TYPE="DSpace ITEM" PROFILE="http://www.dspace.org/schema/aip/mets_aip_1_0.xsd" xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd">
+ <metsHdr LASTMODDATE="2014-10-01T21:55:25">
+  <agent ROLE="CUSTODIAN" TYPE="OTHER" OTHERTYPE="DSpace Archive">
+   <name>10211.3/0</name>
+  </agent>
+  <agent ROLE="CREATOR" TYPE="OTHER" OTHERTYPE="DSpace Software">
+   <name>DSpace 3.1</name>
+  </agent>
+ </metsHdr>
+ <dmdSec ID="dmdSec_1">
+  <mdWrap MDTYPE="MODS">
+   <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd"><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+  <mods:name>
+    <mods:role>
+      <mods:roleTerm type="text">author</mods:roleTerm>
+    </mods:role>
+    <mods:namePart>Rainey, Dominika</mods:namePart>
+  </mods:name>
+  <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-07-09T18:38:34Z</mods:dateAccessioned>
+  </mods:extension>
+  <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-07-09T18:38:34Z</mods:dateAvailable>
+  </mods:extension>
+  <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2014-07-09</mods:dateIssued>
+  </mods:originInfo>
+  <mods:identifier type="uri">http://hdl.handle.net/10211.3/122521</mods:identifier>
+  <mods:abstract>Innate immunity in marine organisms is highly advanced and their only form&#xD;
+of immunity. There are few techniques that have the ability to show global gene&#xD;
+expression of genes involved in immunity without prior knowledge of the organism.&#xD;
+The percentage of marine species with out a fully mapped genome is very high.&#xD;
+Litopenaeus stylirostris (Blue Shrimp) is in that majority. I used Serial Analysis of&#xD;
+Gene Expression (SAGE) and next generation DNA sequencing (pyrosequencing) to·&#xD;
+sequence a collection of short 17-21 base pair tags, each of which represents a single&#xD;
+gene, from the muscle and heart tissue of a healthy and 24 hour post IHHNV&#xD;
+infection individual. The frequency of each tag represents expression values which&#xD;
+allow direct comparison of the control library to the infected library. I introduce a&#xD;
+new way of analysing the extremely large amount of data that was produced using&#xD;
+pyrosequencing. I started by using a PERL script to extract tags. The next step was&#xD;
+using Discovery Space software to find significant differentially expressed tags.&#xD;
+Another PERL script was used that performed a BLAST to match tags to one of four&#xD;
+reference databases. B1ast2GO software was used to assign function. I found that&#xD;
+1791 tags in the heart and 3424 tags in the muscle were differentially expressed.&#xD;
+Approx. 25% of the differentially expressed tags were left unmatched to any&#xD;
+reference database and could represent novel immune related genes that could be used&#xD;
+as replacements for antibiotics.&#xD;
+Innate Immunity, SAGE, Deep-SAGE, Pyrosequencing, Gene Expression</mods:abstract>
+  <mods:titleInfo>
+    <mods:title>Global gene expression profiling for an important marine species, Litopenaeus stylirostris using Deep-SAGE</mods:title>
+  </mods:titleInfo>
+</mods:mods></xmlData>
+  </mdWrap>
+ </dmdSec>
+ <dmdSec ID="dmdSec_2">
+  <mdWrap MDTYPE="OTHER" OTHERMDTYPE="DIM">
+   <xmlData xmlns:dim="http://www.dspace.org/xmlns/dspace/dim"><dim:dim xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" dspaceType="ITEM">
+  <dim:field mdschema="dc" element="contributor" qualifier="author" lang="en">Rainey, Dominika</dim:field>
+  <dim:field mdschema="dc" element="date" qualifier="accessioned" lang="en">2014-07-09T18:38:34Z</dim:field>
+  <dim:field mdschema="dc" element="date" qualifier="available" lang="en">2014-07-09T18:38:34Z</dim:field>
+  <dim:field mdschema="dc" element="date" qualifier="issued" lang="en">2014-07-09</dim:field>
+  <dim:field mdschema="dc" element="identifier" qualifier="uri" lang="en">http://hdl.handle.net/10211.3/122521</dim:field>
+  <dim:field mdschema="dc" element="description" qualifier="abstract" lang="en">Innate immunity in marine organisms is highly advanced and their only form&#xD;
+of immunity. There are few techniques that have the ability to show global gene&#xD;
+expression of genes involved in immunity without prior knowledge of the organism.&#xD;
+The percentage of marine species with out a fully mapped genome is very high.&#xD;
+Litopenaeus stylirostris (Blue Shrimp) is in that majority. I used Serial Analysis of&#xD;
+Gene Expression (SAGE) and next generation DNA sequencing (pyrosequencing) to·&#xD;
+sequence a collection of short 17-21 base pair tags, each of which represents a single&#xD;
+gene, from the muscle and heart tissue of a healthy and 24 hour post IHHNV&#xD;
+infection individual. The frequency of each tag represents expression values which&#xD;
+allow direct comparison of the control library to the infected library. I introduce a&#xD;
+new way of analysing the extremely large amount of data that was produced using&#xD;
+pyrosequencing. I started by using a PERL script to extract tags. The next step was&#xD;
+using Discovery Space software to find significant differentially expressed tags.&#xD;
+Another PERL script was used that performed a BLAST to match tags to one of four&#xD;
+reference databases. B1ast2GO software was used to assign function. I found that&#xD;
+1791 tags in the heart and 3424 tags in the muscle were differentially expressed.&#xD;
+Approx. 25% of the differentially expressed tags were left unmatched to any&#xD;
+reference database and could represent novel immune related genes that could be used&#xD;
+as replacements for antibiotics.&#xD;
+Innate Immunity, SAGE, Deep-SAGE, Pyrosequencing, Gene Expression</dim:field>
+  <dim:field mdschema="dc" element="description" qualifier="provenance" lang="en">Submitted by Sword Deposit (library@calstate.edu) on 2014-01-24T17:07:56Z&#xD;
+No. of bitstreams: 0</dim:field>
+  <dim:field mdschema="dc" element="description" qualifier="provenance" lang="en">Approved for entry into archive by Carmen Mitchell (cmitchell@csusm.edu) on 2014-07-09T18:37:37Z (GMT) No. of bitstreams: 1&#xD;
+174.zip: 1217 bytes, checksum: 8bcd11de07e844487052905337aca97c (MD5)</dim:field>
+  <dim:field mdschema="dc" element="description" qualifier="provenance" lang="en">Approved for entry into archive by Carmen Mitchell (cmitchell@csusm.edu) on 2014-07-09T18:38:05Z (GMT) No. of bitstreams: 1&#xD;
+174.zip: 1217 bytes, checksum: 8bcd11de07e844487052905337aca97c (MD5)</dim:field>
+  <dim:field mdschema="dc" element="description" qualifier="provenance" lang="en">Made available in DSpace on 2014-07-09T18:38:34Z (GMT). No. of bitstreams: 1&#xD;
+174.zip: 1217 bytes, checksum: 8bcd11de07e844487052905337aca97c (MD5)</dim:field>
+  <dim:field mdschema="dc" element="title" lang="en">Global gene expression profiling for an important marine species, Litopenaeus stylirostris using Deep-SAGE</dim:field>
+  <dim:field mdschema="dc" element="date" qualifier="updated" lang="en">2014-01-24T17:07:56Z</dim:field>
+</dim:dim></xmlData>
+  </mdWrap>
+ </dmdSec>
+ <amdSec ID="amd_3">
+  <rightsMD ID="rightsMD_6">
+   <mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="bitstream_410948" MDTYPE="OTHER" OTHERMDTYPE="DSpaceDepositLicense" MIMETYPE="text/plain"/>
+  </rightsMD>
+  <rightsMD ID="rightsMD_9">
+   <mdWrap MDTYPE="OTHER" OTHERMDTYPE="METSRIGHTS">
+    <xmlData xmlns:rights="http://cosimo.stanford.edu/sdr/metsrights/" xsi:schemaLocation="http://cosimo.stanford.edu/sdr/metsrights/ http://cosimo.stanford.edu/sdr/metsrights.xsd"><rights:RightsDeclarationMD xmlns:rights="http://cosimo.stanford.edu/sdr/metsrights/" RIGHTSCATEGORY="LICENSED">
+  <rights:Context CONTEXTCLASS="GENERAL PUBLIC">
+    <rights:Permissions DISCOVER="true" DISPLAY="true" MODIFY="false" DELETE="false" />
+  </rights:Context>
+</rights:RightsDeclarationMD></xmlData>
+   </mdWrap>
+  </rightsMD>
+  <sourceMD ID="sourceMD_10">
+   <mdWrap MDTYPE="OTHER" OTHERMDTYPE="AIP-TECHMD">
+    <xmlData xmlns:dim="http://www.dspace.org/xmlns/dspace/dim"><dim:dim xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" dspaceType="ITEM">
+  <dim:field mdschema="dc" element="creator">library@calstate.edu</dim:field>
+  <dim:field mdschema="dc" element="identifier" qualifier="uri">hdl:10211.3/122521</dim:field>
+  <dim:field mdschema="dc" element="relation" qualifier="isPartOf">hdl:10211.8/13</dim:field>
+</dim:dim></xmlData>
+   </mdWrap>
+  </sourceMD>
+ </amdSec>
+ <amdSec ID="amd_13">
+  <rightsMD ID="rightsMD_19">
+   <mdWrap MDTYPE="OTHER" OTHERMDTYPE="METSRIGHTS">
+    <xmlData xmlns:rights="http://cosimo.stanford.edu/sdr/metsrights/" xsi:schemaLocation="http://cosimo.stanford.edu/sdr/metsrights/ http://cosimo.stanford.edu/sdr/metsrights.xsd"><rights:RightsDeclarationMD xmlns:rights="http://cosimo.stanford.edu/sdr/metsrights/" RIGHTSCATEGORY="LICENSED">
+  <rights:Context CONTEXTCLASS="GENERAL PUBLIC">
+    <rights:Permissions DISCOVER="true" DISPLAY="true" MODIFY="false" DELETE="false" />
+  </rights:Context>
+</rights:RightsDeclarationMD></xmlData>
+   </mdWrap>
+  </rightsMD>
+ </amdSec>
+ <amdSec ID="amd_21">
+  <techMD ID="techMD_22">
+   <mdWrap MDTYPE="PREMIS">
+    <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd"><premis:premis xmlns:premis="http://www.loc.gov/standards/premis">
+  <premis:object>
+    <premis:objectIdentifier>
+      <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+      <premis:objectIdentifierValue>http://scholarworks.calstate.edu/bitstream/10211.3%2F122521/5/RaineyDominika_Fall2010.pdf.jpg</premis:objectIdentifierValue>
+    </premis:objectIdentifier>
+    <premis:objectCategory>File</premis:objectCategory>
+    <premis:objectCharacteristics>
+      <premis:fixity>
+        <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+        <premis:messageDigest>0e04a26289c0c4b2389e32ce253dfecb</premis:messageDigest>
+      </premis:fixity>
+      <premis:size>3876</premis:size>
+      <premis:format>
+        <premis:formatDesignation>
+          <premis:formatName>application/octet-stream</premis:formatName>
+        </premis:formatDesignation>
+      </premis:format>
+    </premis:objectCharacteristics>
+    <premis:originalName>RaineyDominika_Fall2010.pdf.jpg</premis:originalName>
+  </premis:object>
+</premis:premis></xmlData>
+   </mdWrap>
+  </techMD>
+  <rightsMD ID="rightsMD_27">
+   <mdWrap MDTYPE="OTHER" OTHERMDTYPE="METSRIGHTS">
+    <xmlData xmlns:rights="http://cosimo.stanford.edu/sdr/metsrights/" xsi:schemaLocation="http://cosimo.stanford.edu/sdr/metsrights/ http://cosimo.stanford.edu/sdr/metsrights.xsd"><rights:RightsDeclarationMD xmlns:rights="http://cosimo.stanford.edu/sdr/metsrights/" RIGHTSCATEGORY="LICENSED">
+  <rights:Context CONTEXTCLASS="GENERAL PUBLIC">
+    <rights:Permissions DISCOVER="true" DISPLAY="true" MODIFY="false" DELETE="false" />
+  </rights:Context>
+</rights:RightsDeclarationMD></xmlData>
+   </mdWrap>
+  </rightsMD>
+  <sourceMD ID="sourceMD_28">
+   <mdWrap MDTYPE="OTHER" OTHERMDTYPE="AIP-TECHMD">
+    <xmlData xmlns:dim="http://www.dspace.org/xmlns/dspace/dim"><dim:dim xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" dspaceType="BITSTREAM">
+  <dim:field mdschema="dc" element="title">RaineyDominika_Fall2010.pdf.jpg</dim:field>
+  <dim:field mdschema="dc" element="title" qualifier="alternative">Written by FormatFilter org.dspace.app.mediafilter.JPEGPDFFilter on 2014-10-02T04:55:24Z (GMT).</dim:field>
+  <dim:field mdschema="dc" element="description">Thumbnail</dim:field>
+  <dim:field mdschema="dc" element="format" qualifier="medium">Unknown</dim:field>
+  <dim:field mdschema="dc" element="format" qualifier="mimetype">application/octet-stream</dim:field>
+  <dim:field mdschema="dc" element="format" qualifier="supportlevel">UNKNOWN</dim:field>
+  <dim:field mdschema="dc" element="format" qualifier="internal">false</dim:field>
+</dim:dim></xmlData>
+   </mdWrap>
+  </sourceMD>
+ </amdSec>
+ <amdSec ID="amd_29">
+  <rightsMD ID="rightsMD_35">
+   <mdWrap MDTYPE="OTHER" OTHERMDTYPE="METSRIGHTS">
+    <xmlData xmlns:rights="http://cosimo.stanford.edu/sdr/metsrights/" xsi:schemaLocation="http://cosimo.stanford.edu/sdr/metsrights/ http://cosimo.stanford.edu/sdr/metsrights.xsd"><rights:RightsDeclarationMD xmlns:rights="http://cosimo.stanford.edu/sdr/metsrights/" RIGHTSCATEGORY="LICENSED">
+  <rights:Context CONTEXTCLASS="GENERAL PUBLIC">
+    <rights:Permissions DISCOVER="true" DISPLAY="true" MODIFY="false" DELETE="false" />
+  </rights:Context>
+</rights:RightsDeclarationMD></xmlData>
+   </mdWrap>
+  </rightsMD>
+ </amdSec>
+ <amdSec ID="amd_37">
+  <techMD ID="techMD_38">
+   <mdWrap MDTYPE="PREMIS">
+    <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd"><premis:premis xmlns:premis="http://www.loc.gov/standards/premis">
+  <premis:object>
+    <premis:objectIdentifier>
+      <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+      <premis:objectIdentifierValue>http://scholarworks.calstate.edu/bitstream/10211.3%2F122521/4/RaineyDominika_Fall2010.pdf.txt</premis:objectIdentifierValue>
+    </premis:objectIdentifier>
+    <premis:objectCategory>File</premis:objectCategory>
+    <premis:objectCharacteristics>
+      <premis:fixity>
+        <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+        <premis:messageDigest>5c98bd97810982ad4e70da4f3ba9c6ae</premis:messageDigest>
+      </premis:fixity>
+      <premis:size>72609</premis:size>
+      <premis:format>
+        <premis:formatDesignation>
+          <premis:formatName>text/plain</premis:formatName>
+        </premis:formatDesignation>
+      </premis:format>
+    </premis:objectCharacteristics>
+    <premis:originalName>RaineyDominika_Fall2010.pdf.txt</premis:originalName>
+  </premis:object>
+</premis:premis></xmlData>
+   </mdWrap>
+  </techMD>
+  <rightsMD ID="rightsMD_43">
+   <mdWrap MDTYPE="OTHER" OTHERMDTYPE="METSRIGHTS">
+    <xmlData xmlns:rights="http://cosimo.stanford.edu/sdr/metsrights/" xsi:schemaLocation="http://cosimo.stanford.edu/sdr/metsrights/ http://cosimo.stanford.edu/sdr/metsrights.xsd"><rights:RightsDeclarationMD xmlns:rights="http://cosimo.stanford.edu/sdr/metsrights/" RIGHTSCATEGORY="LICENSED">
+  <rights:Context CONTEXTCLASS="GENERAL PUBLIC">
+    <rights:Permissions DISCOVER="true" DISPLAY="true" MODIFY="false" DELETE="false" />
+  </rights:Context>
+</rights:RightsDeclarationMD></xmlData>
+   </mdWrap>
+  </rightsMD>
+  <sourceMD ID="sourceMD_44">
+   <mdWrap MDTYPE="OTHER" OTHERMDTYPE="AIP-TECHMD">
+    <xmlData xmlns:dim="http://www.dspace.org/xmlns/dspace/dim"><dim:dim xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" dspaceType="BITSTREAM">
+  <dim:field mdschema="dc" element="title">RaineyDominika_Fall2010.pdf.txt</dim:field>
+  <dim:field mdschema="dc" element="title" qualifier="alternative">Written by FormatFilter org.dspace.app.mediafilter.PDFFilter on 2014-10-02T04:55:24Z (GMT).</dim:field>
+  <dim:field mdschema="dc" element="description">Extracted text</dim:field>
+  <dim:field mdschema="dc" element="format" qualifier="medium">Text</dim:field>
+  <dim:field mdschema="dc" element="format" qualifier="mimetype">text/plain</dim:field>
+  <dim:field mdschema="dc" element="format" qualifier="supportlevel">KNOWN</dim:field>
+  <dim:field mdschema="dc" element="format" qualifier="internal">false</dim:field>
+</dim:dim></xmlData>
+   </mdWrap>
+  </sourceMD>
+ </amdSec>
+ <amdSec ID="amd_45">
+  <rightsMD ID="rightsMD_51">
+   <mdWrap MDTYPE="OTHER" OTHERMDTYPE="METSRIGHTS">
+    <xmlData xmlns:rights="http://cosimo.stanford.edu/sdr/metsrights/" xsi:schemaLocation="http://cosimo.stanford.edu/sdr/metsrights/ http://cosimo.stanford.edu/sdr/metsrights.xsd"><rights:RightsDeclarationMD xmlns:rights="http://cosimo.stanford.edu/sdr/metsrights/" RIGHTSCATEGORY="LICENSED">
+  <rights:Context CONTEXTCLASS="GENERAL PUBLIC">
+    <rights:Permissions DISCOVER="true" DISPLAY="true" MODIFY="false" DELETE="false" />
+  </rights:Context>
+</rights:RightsDeclarationMD></xmlData>
+   </mdWrap>
+  </rightsMD>
+ </amdSec>
+ <amdSec ID="amd_54">
+  <techMD ID="techMD_55">
+   <mdWrap MDTYPE="PREMIS">
+    <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd"><premis:premis xmlns:premis="http://www.loc.gov/standards/premis">
+  <premis:object>
+    <premis:objectIdentifier>
+      <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+      <premis:objectIdentifierValue>http://scholarworks.calstate.edu/bitstream/10211.3%2F122521/3/RaineyDominika_Fall2010.pdf</premis:objectIdentifierValue>
+    </premis:objectIdentifier>
+    <premis:objectCategory>File</premis:objectCategory>
+    <premis:objectCharacteristics>
+      <premis:fixity>
+        <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+        <premis:messageDigest>75332897dbba42c354682fc3dc89ab72</premis:messageDigest>
+      </premis:fixity>
+      <premis:size>1740530</premis:size>
+      <premis:format>
+        <premis:formatDesignation>
+          <premis:formatName>application/pdf</premis:formatName>
+        </premis:formatDesignation>
+      </premis:format>
+    </premis:objectCharacteristics>
+    <premis:originalName>RaineyDominika_Fall2010.pdf</premis:originalName>
+  </premis:object>
+</premis:premis></xmlData>
+   </mdWrap>
+  </techMD>
+  <rightsMD ID="rightsMD_60">
+   <mdWrap MDTYPE="OTHER" OTHERMDTYPE="METSRIGHTS">
+    <xmlData xmlns:rights="http://cosimo.stanford.edu/sdr/metsrights/" xsi:schemaLocation="http://cosimo.stanford.edu/sdr/metsrights/ http://cosimo.stanford.edu/sdr/metsrights.xsd"><rights:RightsDeclarationMD xmlns:rights="http://cosimo.stanford.edu/sdr/metsrights/" RIGHTSCATEGORY="LICENSED">
+  <rights:Context CONTEXTCLASS="GENERAL PUBLIC">
+    <rights:Permissions DISCOVER="true" DISPLAY="true" MODIFY="false" DELETE="false" />
+  </rights:Context>
+</rights:RightsDeclarationMD></xmlData>
+   </mdWrap>
+  </rightsMD>
+  <sourceMD ID="sourceMD_61">
+   <mdWrap MDTYPE="OTHER" OTHERMDTYPE="AIP-TECHMD">
+    <xmlData xmlns:dim="http://www.dspace.org/xmlns/dspace/dim"><dim:dim xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" dspaceType="BITSTREAM">
+  <dim:field mdschema="dc" element="title">RaineyDominika_Fall2010.pdf</dim:field>
+  <dim:field mdschema="dc" element="title" qualifier="alternative">RaineyDominika_Fall2010.pdf</dim:field>
+  <dim:field mdschema="dc" element="description" />
+  <dim:field mdschema="dc" element="format" qualifier="medium">Adobe PDF</dim:field>
+  <dim:field mdschema="dc" element="format" qualifier="mimetype">application/pdf</dim:field>
+  <dim:field mdschema="dc" element="format" qualifier="supportlevel">KNOWN</dim:field>
+  <dim:field mdschema="dc" element="format" qualifier="internal">false</dim:field>
+</dim:dim></xmlData>
+   </mdWrap>
+  </sourceMD>
+ </amdSec>
+ <amdSec ID="amd_62">
+  <rightsMD ID="rightsMD_68">
+   <mdWrap MDTYPE="OTHER" OTHERMDTYPE="METSRIGHTS">
+    <xmlData xmlns:rights="http://cosimo.stanford.edu/sdr/metsrights/" xsi:schemaLocation="http://cosimo.stanford.edu/sdr/metsrights/ http://cosimo.stanford.edu/sdr/metsrights.xsd"><rights:RightsDeclarationMD xmlns:rights="http://cosimo.stanford.edu/sdr/metsrights/" RIGHTSCATEGORY="LICENSED">
+  <rights:Context CONTEXTCLASS="GENERAL PUBLIC">
+    <rights:Permissions DISCOVER="true" DISPLAY="true" MODIFY="false" DELETE="false" />
+  </rights:Context>
+</rights:RightsDeclarationMD></xmlData>
+   </mdWrap>
+  </rightsMD>
+ </amdSec>
+ <amdSec ID="amd_70">
+  <techMD ID="techMD_71">
+   <mdWrap MDTYPE="PREMIS">
+    <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd"><premis:premis xmlns:premis="http://www.loc.gov/standards/premis">
+  <premis:object>
+    <premis:objectIdentifier>
+      <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+      <premis:objectIdentifierValue>http://scholarworks.calstate.edu/bitstream/10211.3%2F122521/2/174.zip</premis:objectIdentifierValue>
+    </premis:objectIdentifier>
+    <premis:objectCategory>File</premis:objectCategory>
+    <premis:objectCharacteristics>
+      <premis:fixity>
+        <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+        <premis:messageDigest>8bcd11de07e844487052905337aca97c</premis:messageDigest>
+      </premis:fixity>
+      <premis:size>1217</premis:size>
+      <premis:format>
+        <premis:formatDesignation>
+          <premis:formatName>application/zip</premis:formatName>
+        </premis:formatDesignation>
+      </premis:format>
+    </premis:objectCharacteristics>
+    <premis:originalName>174.zip</premis:originalName>
+  </premis:object>
+</premis:premis></xmlData>
+   </mdWrap>
+  </techMD>
+  <rightsMD ID="rightsMD_76">
+   <mdWrap MDTYPE="OTHER" OTHERMDTYPE="METSRIGHTS">
+    <xmlData xmlns:rights="http://cosimo.stanford.edu/sdr/metsrights/" xsi:schemaLocation="http://cosimo.stanford.edu/sdr/metsrights/ http://cosimo.stanford.edu/sdr/metsrights.xsd"><rights:RightsDeclarationMD xmlns:rights="http://cosimo.stanford.edu/sdr/metsrights/" RIGHTSCATEGORY="LICENSED">
+  <rights:Context CONTEXTCLASS="GENERAL PUBLIC">
+    <rights:Permissions DISCOVER="true" DISPLAY="true" MODIFY="false" DELETE="false" />
+  </rights:Context>
+</rights:RightsDeclarationMD></xmlData>
+   </mdWrap>
+  </rightsMD>
+  <sourceMD ID="sourceMD_77">
+   <mdWrap MDTYPE="OTHER" OTHERMDTYPE="AIP-TECHMD">
+    <xmlData xmlns:dim="http://www.dspace.org/xmlns/dspace/dim"><dim:dim xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" dspaceType="BITSTREAM">
+  <dim:field mdschema="dc" element="title">174.zip</dim:field>
+  <dim:field mdschema="dc" element="description">SWORD deposit package</dim:field>
+  <dim:field mdschema="dc" element="format" qualifier="medium">ZIP</dim:field>
+  <dim:field mdschema="dc" element="format" qualifier="mimetype">application/zip</dim:field>
+  <dim:field mdschema="dc" element="format" qualifier="supportlevel">KNOWN</dim:field>
+  <dim:field mdschema="dc" element="format" qualifier="internal">false</dim:field>
+</dim:dim></xmlData>
+   </mdWrap>
+  </sourceMD>
+ </amdSec>
+ <amdSec ID="amd_78">
+  <rightsMD ID="rightsMD_84">
+   <mdWrap MDTYPE="OTHER" OTHERMDTYPE="METSRIGHTS">
+    <xmlData xmlns:rights="http://cosimo.stanford.edu/sdr/metsrights/" xsi:schemaLocation="http://cosimo.stanford.edu/sdr/metsrights/ http://cosimo.stanford.edu/sdr/metsrights.xsd"><rights:RightsDeclarationMD xmlns:rights="http://cosimo.stanford.edu/sdr/metsrights/" RIGHTSCATEGORY="LICENSED">
+  <rights:Context CONTEXTCLASS="GENERAL PUBLIC">
+    <rights:Permissions DISCOVER="true" DISPLAY="true" MODIFY="false" DELETE="false" />
+  </rights:Context>
+</rights:RightsDeclarationMD></xmlData>
+   </mdWrap>
+  </rightsMD>
+ </amdSec>
+ <amdSec ID="amd_86">
+  <techMD ID="techMD_87">
+   <mdWrap MDTYPE="PREMIS">
+    <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd"><premis:premis xmlns:premis="http://www.loc.gov/standards/premis">
+  <premis:object>
+    <premis:objectIdentifier>
+      <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+      <premis:objectIdentifierValue>http://scholarworks.calstate.edu/bitstream/10211.3%2F122521/1/license.txt</premis:objectIdentifierValue>
+    </premis:objectIdentifier>
+    <premis:objectCategory>File</premis:objectCategory>
+    <premis:objectCharacteristics>
+      <premis:fixity>
+        <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+        <premis:messageDigest>8a4605be74aa9ea9d79846c1fba20a33</premis:messageDigest>
+      </premis:fixity>
+      <premis:size>1748</premis:size>
+      <premis:format>
+        <premis:formatDesignation>
+          <premis:formatName>text/plain; charset=utf-8</premis:formatName>
+        </premis:formatDesignation>
+      </premis:format>
+    </premis:objectCharacteristics>
+    <premis:originalName>license.txt</premis:originalName>
+  </premis:object>
+</premis:premis></xmlData>
+   </mdWrap>
+  </techMD>
+  <rightsMD ID="rightsMD_92">
+   <mdWrap MDTYPE="OTHER" OTHERMDTYPE="METSRIGHTS">
+    <xmlData xmlns:rights="http://cosimo.stanford.edu/sdr/metsrights/" xsi:schemaLocation="http://cosimo.stanford.edu/sdr/metsrights/ http://cosimo.stanford.edu/sdr/metsrights.xsd"><rights:RightsDeclarationMD xmlns:rights="http://cosimo.stanford.edu/sdr/metsrights/" RIGHTSCATEGORY="LICENSED">
+  <rights:Context CONTEXTCLASS="GENERAL PUBLIC">
+    <rights:Permissions DISCOVER="true" DISPLAY="true" MODIFY="false" DELETE="false" />
+  </rights:Context>
+</rights:RightsDeclarationMD></xmlData>
+   </mdWrap>
+  </rightsMD>
+  <sourceMD ID="sourceMD_93">
+   <mdWrap MDTYPE="OTHER" OTHERMDTYPE="AIP-TECHMD">
+    <xmlData xmlns:dim="http://www.dspace.org/xmlns/dspace/dim"><dim:dim xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" dspaceType="BITSTREAM">
+  <dim:field mdschema="dc" element="title">license.txt</dim:field>
+  <dim:field mdschema="dc" element="title" qualifier="alternative">license.txt</dim:field>
+  <dim:field mdschema="dc" element="format" qualifier="medium">License</dim:field>
+  <dim:field mdschema="dc" element="format" qualifier="mimetype">text/plain; charset=utf-8</dim:field>
+  <dim:field mdschema="dc" element="format" qualifier="supportlevel">KNOWN</dim:field>
+  <dim:field mdschema="dc" element="format" qualifier="internal">true</dim:field>
+</dim:dim></xmlData>
+   </mdWrap>
+  </sourceMD>
+ </amdSec>
+ <fileSec>
+  <fileGrp ADMID="amd_13" USE="THUMBNAIL">
+   <file ID="bitstream_5" MIMETYPE="application/octet-stream" SEQ="5" SIZE="3876" CHECKSUM="0e04a26289c0c4b2389e32ce253dfecb" CHECKSUMTYPE="MD5" ADMID="amd_21" GROUPID="GROUP_bitstream_3">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="bitstream_478649"/>
+   </file>
+  </fileGrp>
+  <fileGrp ADMID="amd_29" USE="TEXT">
+   <file ID="bitstream_4" MIMETYPE="text/plain" SEQ="4" SIZE="72609" CHECKSUM="5c98bd97810982ad4e70da4f3ba9c6ae" CHECKSUMTYPE="MD5" ADMID="amd_37" GROUPID="GROUP_bitstream_3">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="bitstream_478648.txt"/>
+   </file>
+  </fileGrp>
+  <fileGrp ADMID="amd_45" USE="ORIGINAL">
+   <file ID="bitstream_3" MIMETYPE="application/pdf" SEQ="3" SIZE="1740530" CHECKSUM="75332897dbba42c354682fc3dc89ab72" CHECKSUMTYPE="MD5" ADMID="amd_54" GROUPID="GROUP_bitstream_3">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="bitstream_465502.pdf"/>
+   </file>
+  </fileGrp>
+  <fileGrp ADMID="amd_62" USE="SWORD">
+   <file ID="bitstream_2" MIMETYPE="application/zip" SEQ="2" SIZE="1217" CHECKSUM="8bcd11de07e844487052905337aca97c" CHECKSUMTYPE="MD5" ADMID="amd_70" GROUPID="GROUP_bitstream_2">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="bitstream_410949.zip"/>
+   </file>
+  </fileGrp>
+  <fileGrp ADMID="amd_78" USE="LICENSE">
+   <file ID="bitstream_1" MIMETYPE="text/plain; charset=utf-8" SEQ="1" SIZE="1748" CHECKSUM="8a4605be74aa9ea9d79846c1fba20a33" CHECKSUMTYPE="MD5" ADMID="amd_86" GROUPID="GROUP_bitstream_1">
+    <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="bitstream_410948"/>
+   </file>
+  </fileGrp>
+ </fileSec>
+ <structMap ID="struct_11" LABEL="DSpace Object" TYPE="LOGICAL">
+  <div ID="div_12" DMDID="dmdSec_2 dmdSec_1" ADMID="amd_3" TYPE="DSpace Object Contents">
+   <div ID="div_53" TYPE="DSpace BITSTREAM">
+    <fptr FILEID="bitstream_3"/>
+   </div>
+  </div>
+ </structMap>
+ <structMap ID="struct_94" LABEL="Parent" TYPE="LOGICAL">
+  <div ID="div_95" LABEL="Parent of this DSpace Object" TYPE="AIP Parent Link">
+   <mptr ID="mptr_96" LOCTYPE="HANDLE" xlink:type="simple" xlink:href="10211.8/13"/>
+  </div>
+ </structMap>
+</mets>
