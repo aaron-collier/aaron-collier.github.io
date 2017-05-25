@@ -46,29 +46,24 @@ Collection zip files contain a mets.xml file, possibly a thumbnail. The mets.xml
 
 The ITEM files contain the metadata (in mets.xml) and any associated bitstreams. These are the objects we want imported.
 
-[The code - in all it's glory](https://github.com/aaron-collier/csusm-hyrax/blob/946b9c4497eb88dde5dfa5ac2946024b30dad4db/lib/tasks/packager.rake)
+[The code - in all it's glory](https://github.com/aaron-collier/hydra-packager/blob/v1.0/lib/tasks/packager.rake)
 
 - It works!
 - An excellent proof of concept that made possible the move to Hydra
 - But, as one of my first ruby projects, this looks like PHP
-- Lots of bits commented out, a lot of very local like things, etc...
+- Lots of bits commented out, a lot of very localized bits, odd names, etc.
 - Quite a bit that just isn't even used anymore
+- Not at all DRY
+- Methods tend to do too much
 
-### Pros
-
-- [The hierarchy that allowed for crawling through the zipfiles](https://github.com/aaron-collier/csusm-hyrax/blob/946b9c4497eb88dde5dfa5ac2946024b30dad4db/lib/tasks/packager.rake#L177)
-- [This messy block helped to grok the relationsiop of the data in the mets.xml file](https://github.com/aaron-collier/csusm-hyrax/blob/946b9c4497eb88dde5dfa5ac2946024b30dad4db/lib/tasks/packager.rake#L185)
-
-### Cons
-
-- [No longer calling this method](https://github.com/aaron-collier/csusm-hyrax/blob/946b9c4497eb88dde5dfa5ac2946024b30dad4db/lib/tasks/packager.rake#L260)
-- [Hard code work type](https://github.com/aaron-collier/csusm-hyrax/blob/946b9c4497eb88dde5dfa5ac2946024b30dad4db/lib/tasks/packager.rake#L276)
-- [Have to manually create this folder](https://github.com/aaron-collier/csusm-hyrax/blob/946b9c4497eb88dde5dfa5ac2946024b30dad4db/lib/tasks/packager.rake#L98)
-- Overall, it's just too long and messy.
 
 ## Making it usable for anyone else
 
 [I came across this article while investigating rake best practices](https://edelpero.svbtle.com/everything-you-always-wanted-to-know-about-writing-good-rake-tasks-but-were-afraid-to-ask)
+
+- Added a description, this makes it show up in `rake -T`
+- Added a method to print a progress bar (but admittedly this compounded the DRY problem)
+    - Adding a log service to both minimize output and DRY between log and console output.
 
 ### Write the docs!
 
@@ -92,6 +87,8 @@ With this particular beautifully complete documentation:
 # Sometimes a dspace created zip file will cause an error. Remove or move that file then move your NON item zip files back from "complete
  to the root folder and rerun to catch up from where it failed.
  ```
+
+At this point, it was very clear that a [refactor](packager/refactor) was necessary.
 
 ### Keeping things from hard crashing
 
