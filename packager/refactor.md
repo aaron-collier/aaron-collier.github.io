@@ -4,28 +4,41 @@ I may be strange in that I really enjoy refactoring.
 
 The current state of the refactoring is available on the [hydra-packager/refactor branch](https://github.com/aaron-collier/hydra-packager/tree/refactor).
 
-## Background
+## First Steps
 
-After deciding that Hydra (and specifically Sufia, then Hyrax) would be the platform for the future of the
-California State University ScholarWorks project, the first order of business was determining what the movement
-of data out of DSpace would look like.
+### Keeping things from hard crashing
 
-As a simple primer, there are several options this:
-- METS export
-- [AIP export](https://wiki.duraspace.org/display/DSDOC3x/DSpace+AIP+Format)
-- Bag plugin
-- OAI-PMH
-- Raw database/SOLR/bitstreams
+- Fixed the bug to create the complete directory
+- Added an error directory
+- Added a simple [Error catch](https://github.com/aaron-collier/hydra-packager/blob/master/lib/tasks/packager.rake#L123)
+- Configuration option to exit on error
 
-In order to avoid installing a plugin (Bag) and wanting to stay as close to native DSpace as possible, I chose to use the results of the AIP packager for Hydra ingestion. This has the benefit of being the prescribed backup/restore method for DSpace.
+### Minimizing command line options & in code configuration
+
+- Added a [configuration file](https://github.com/aaron-collier/hydra-packager/blob/configuration/config/packager.yml)
+- Moved the XML xpath query format into the configuration to clean up...
+- Allows for addition of metadata properties and work types without touching the rake job
+
+### Quieting down the output if desired
+
+- Allowed for the existing output amount with at "verbose" option
+- Added the "..." style progress bar output as a "minimal" option
+- Included a "quite" option for no output.
+- All of the above options don't affect the added log output (which matches verbose)
 
 ## Destroy all the things!
 
 ### Goals
 
+- Methods are doing too much, they should do **one** thing
+- Stick to DRY principles
 
 ### Steps
 
+- Add methods for any current extra method action
+- DRY -
+    - Remove (when possible) named parameters and pass a params hash
+    
 ### Status
 
 - This method does more than one thing.

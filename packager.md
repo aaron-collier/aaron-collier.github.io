@@ -90,29 +90,10 @@ With this particular beautifully complete documentation:
 
 At this point, it was very clear that a [refactor](packager/refactor) was necessary.
 
-### Keeping things from hard crashing
-
-- Fixed the bug to create the complete directory
-- Added an error directory
-- Added a simple [Error catch](https://github.com/aaron-collier/hydra-packager/blob/master/lib/tasks/packager.rake#L123)
-- Configuration option to exit on error
-
-### Minimizing command line options & in code configuration
-
-- Added a [configuration file](https://github.com/aaron-collier/hydra-packager/blob/configuration/config/packager.yml)
-- Moved the XML xpath query format into the configuration to clean up...
-- Allows for addition of metadata properties and work types without touching the rake job
-
-### Quieting down the output if desired
-
-- Allowed for the existing output amount with at "verbose" option
-- Added the "..." style progress bar output as a "minimal" option
-- Included a "quite" option for no output.
-- All of the above options don't affect the added log output (which matches verbose)
-
 ## TODO & What's Next?
 
 - Improve the README and any other instructions
 - Gem for easy inclusion in a project
 - Investigate ability to attach files without running derivatives (for the sake of speed)
 - Consider options for automation
+- Make the task interactive so they user can select the input file without a command line option
