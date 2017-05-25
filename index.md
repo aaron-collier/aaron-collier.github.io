@@ -8,4 +8,4 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### hydra-packager
 
-[Hydra-packager](https://github.com/aaron-collier/hydra-packager)) rake job implementation of the DSpace packager in order to import items into hydra repositories.
+[Hydra-packager](packager) rake job implementation of the DSpace packager in order to import items into hydra repositories.
