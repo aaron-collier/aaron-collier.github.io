@@ -36,8 +36,8 @@ If you would prefer a GUI:
 No we're going to clone the repository we created above into a local repository.
 
 1. Clone the repo wherever you like:
-..1. git clone [path]
-..2. using a GUI
+  1. git clone [path]
+  2. using a GUI
 
 ### Tools
 
