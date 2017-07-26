@@ -42,9 +42,18 @@ No we're going to clone the repository we created above into a local repository.
 
 ### What the fork?
 
+1. Fork this repository: https://github.com/aaron-collier/libit17
+
 ### Branching
 
+1. Clone the repository locally as we did before
+2. Create a new local Branch
+3. Make a change
+4. Push changes to your version of the repository
+
 ### Contributing through Pull Requests (PRs)
+
+1. Create a PR from your local version to the original master.
 
 ## Tools
 
