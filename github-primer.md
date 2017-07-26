@@ -10,9 +10,9 @@ In order to use github (or any other git provider) for source control and contri
 
 If you are comfortable working in the command line:
 
-* [Mac Setup](link-to-gist)
-* [Windows Setup](link-to-gist)
-* [Linux Setup](link-to-gist)
+* [Mac Setup](https://gist.github.com/aaron-collier/09f27465c91027dc564106aaff820cfa)
+* [Windows Setup](https://git-for-windows.github.io/)
+* [Linux Setup](https://gist.github.com/aaron-collier/f9bc7d5a60afa779c67d92c07a9d029c)
 
 If you would prefer a GUI:
 
