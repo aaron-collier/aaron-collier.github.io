@@ -35,12 +35,22 @@ If you would prefer a GUI:
 
 No we're going to clone the repository we created above into a local repository.
 
-1. Clone the repo wherever you like:
-  1. git clone [path]
-  2. using a GUI
+1. Clone the repo wherever you like
+2. Check the status of the repository
 
-### Tools
+## Forking, Branching, and Contributing
 
-### Resources
+### What the fork?
+
+### Branching
+
+### Contributing through Pull Requests (PRs)
+
+## Tools
+
+* [GitKraken](https://www.gitkraken.com/) - Available for Windows, Mac, and Linux
+* [SourceTree](https://www.sourcetreeapp.com/) - Available for Windows and Mac
+
+## Resources
 
 [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
