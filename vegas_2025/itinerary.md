@@ -7,48 +7,62 @@ Vrbo: [608 N Racetrack Rd, Henderson, NV 89015,, Henderson, NV, 89015](https://w
 
 The goal of this itinerary is to do the "must do" items with some time fillers away from the house and to allow for plenty of time to chill and hang out at the house.
 
+## Must do's
+
+- [Gritz Cafe](http://www.gritzcafe.com/)
+- [Meow Wolf Omega Mart](https://meowwolf.com/visit/las-vegas)
+- Neon Museum
+- Rams game at a cool sportsbook or bar (Sunday 1pm)
+
 ## Friday, November 7, 2025
 _Killing time until 4pm_
 
 ### 9:15am - Arrival
+_Times approximate and subject to change_
 
-- [ ] Pick up rental car at enterprise
-- [ ] 10:00am - Pinball Hall of Fame
-- [Gritz Cafe](http://www.gritzcafe.com/) for breakfast/lunch.
-- [Crafthaus](https://www.crafthausbrewery.com/copy-of-arts-district-taproom) for a beer break
-- [Nostalgia Street Rods](http://nostalgiastreetrods.com/)
-- [McMullans Irish Pub](http://www.mcmullansirishpub.com/) Beer break (and scope it out for sunday breakfast)
+- Pick up rental car at Enterprise
+- 10:00am - Pinball Hall of Fame
+- 11:00 - [Gritz Cafe](http://www.gritzcafe.com/) for breakfast/lunch.
+- 12:00 - [Crafthaus](https://www.crafthausbrewery.com/copy-of-arts-district-taproom) for a beer break
+- 13:00 - [Nostalgia Street Rods](http://nostalgiastreetrods.com/)
+- 14:00 - [McMullans Irish Pub](http://www.mcmullansirishpub.com/) Beer break (and scope it out for sunday breakfast)
 - Optional if we need to fill more time:
   - Mob Museum
   - Bowling or Arcade at Sunset Station
   - Or hold for a pre-house WinCo stop for essentials (soda/beer/ice/snacks)
-- [Ethel M Chocolate Factory & Cactus Garden](https://www.ethelm.com/en-us)
-- [World of Scoops](http://www.worldofscoopz.com/)
+- 15:00 - [Ethel M Chocolate Factory & Cactus Garden](https://www.ethelm.com/en-us)
+- 16:00 [World of Scoops](http://www.worldofscoopz.com/)
 - Optionally stop at Winco now or come back after checking in.
 
 ### 4:00pm - Vrbo check-in
 
+Hang out and enjoy the house, pool, and hot tub. Or go into Henderson and check out Bisquits and Bourbon.
+
 ## Saturday, November 8, 2025
 
-### 8-9am Drive to Grand Canyon Skywalk
+### 8-9am Drive to Grand Canyon West Skywalk
+
+**Note**: Tickets: $99/each - so this can be rescheduled if that is excessive.
 
 Depending on tourist stops along the way, plan to return to house between 1-2pm.
 
-### 3:30pm/4pm - Able Baker Brewing
+Afternoon arrivals settle in and hang out for a bit.
 
-### Meow Wolf Omega Mart
+- [Able Baker Brewing]()
+- [Meow Wolf Omega Mart](https://meowwolf.com/visit/las-vegas)
+- [Berlin Bar](https://www.berlinlv.com)
+- [Neon Museum]()
+- [Brewdog]() - Optional
 
-[Info](https://meowwolf.com/visit/las-vegas)
-
-[Berlin Bar](https://www.berlinlv.com)
-
-### Neon Museum
-
-[Brewdog]
+Back to house to hangout, cake at midnight.
 
 # Sunday, November 9, 2025
 
+- Optionally breakfast at McMullans Irish Pub (full irish breakfast)
+
 ### 1:00pm - Rams game at a sports book or bar
+
+- Check out brewery row, a cocktail bar, or just head back to the house to hangout and hit the pool and hot tub.
 
 #### Of Interest
 
